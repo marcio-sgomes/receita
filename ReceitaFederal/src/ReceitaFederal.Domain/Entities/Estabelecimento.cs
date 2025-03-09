@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReceitaFederal.Domain.entities
+namespace ReceitaFederal.Domain.Entities
 {
-    internal class Estabelecimento
+    public class Estabelecimento
     {
         public Guid Id { get; set; }
         public string? CnpjBasico { get; set; }

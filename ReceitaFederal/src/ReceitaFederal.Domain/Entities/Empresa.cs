@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ReceitaFederal.Domain.entities
+﻿namespace ReceitaFederal.Domain.Entities
 {
-    internal class Empresa
+    public class Empresa
     {
-        public Guid Id { get; set; }
         public string? CnpjBasico { get; set; }
         public string? RazaoSocial { get; set; }
         public string? NaturezaJuridica { get; set; }
